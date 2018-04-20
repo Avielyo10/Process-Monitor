@@ -8,5 +8,6 @@ def watchwer(fileName):
           print 'SomeOne Is Trying To Delete Or Transfer Your Files'
           print ''
           os.chmod(fileName,0600)
+          statLog.close()
 
 
