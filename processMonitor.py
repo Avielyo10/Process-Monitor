@@ -67,8 +67,8 @@ while flag:
         sys.stdout = org
 
         # looking for changes made
-        processList = open('processList.out', 'r')
         secretFile = prev
+        processList = open('processList.out', 'r')
         statusLog = open('Status_Log.txt','a+')
 
         #case 1: new process
