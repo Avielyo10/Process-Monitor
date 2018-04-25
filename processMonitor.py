@@ -8,8 +8,8 @@ def selector():
         import monitor
         monitor
     elif pmMode =='2':
-        print 'Still Building Up.\n'
-        selector()
+        import regularMode
+        regularMode
     else:
         selector()
 
